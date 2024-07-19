@@ -1,0 +1,21 @@
+{
+  "name": "Debian",
+  "image": "mcr.microsoft.com/devcontainers/base:bullseye",
+  "features": {
+    "ghcr.io/devcontainers/features/go:1": {},
+    "ghcr.io/devcontainers/features/node:1": {},
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "golang.go",
+        "svelte.svelte-vscode",
+        "esbenp.prettier-vscode",
+        "ms-azuretools.vscode-docker",
+        "bradlc.vscode-tailwindcss",
+        "foxundermoon.shell-format"
+      ]
+    }
+  }
+}
